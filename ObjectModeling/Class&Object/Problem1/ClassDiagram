@@ -1,0 +1,18 @@
++-------------------+          1    *          +-------------------+
+|      Student      |--------------------------|      Subject      |
++-------------------+                          +-------------------+
+| - name: String    |                          | - subjectName:Str |
+| - rollNo: int     |                          | - marks: int      |
+| - subjects[]      |                          +-------------------+
++-------------------+                         
+| + addSubject()    |
+| + getSubjects()   |
+| + getName()       |
++-------------------+
+
++-------------------+
+|  GradeCalculator  |
++-------------------+
+| + calculateGrade(Student): String   |
+| + calculateAverage(Student): double |
++-------------------+
